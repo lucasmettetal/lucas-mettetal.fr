@@ -1,6 +1,6 @@
 const CONTACTS = [
-  { label: 'Email', value: 'contact@lucas-mettetal.fr', href: 'mailto:lucas8237014@gmail.com' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/lucas-mettetal', href: 'https://linkedin.com/in/lucas-mettetal' },
+  { label: 'Email', value: 'lucas8237014@gmail.com', href: 'mailto:lucas8237014@gmail.com' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/lucas-mettetal-a079a8388', href: 'https://www.linkedin.com/in/lucas-mettetal-a079a8388' },
   { label: 'GitHub', value: 'github.com/lucasmettetal', href: 'https://github.com/lucasmettetal' },
 ]
 
@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
 
         <a
-          href="mailto:contact@lucas-mettetal.fr"
+          href="mailto:lucas8237014@gmail.com"
           className="inline-flex shrink-0 items-center gap-2 self-start rounded-md bg-accent px-6 py-3 text-sm font-semibold text-ink-950 transition-transform hover:-translate-y-0.5 hover:bg-accent-dim"
         >
           Envoyer un email
