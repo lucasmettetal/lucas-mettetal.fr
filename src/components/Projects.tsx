@@ -15,7 +15,7 @@ const PROJECTS: Project[] = [
     description:
       "Plateforme e-commerce complète : catalogue produits, panier, paiement en ligne et back-office. Architecture React / Node.js / PostgreSQL, conteneurisée avec Docker et intégrant Stripe pour les paiements.",
     stack: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'Stripe'],
-    repo: 'https://github.com/lucasmettetal/rue25',
+    repo: 'https://github.com/lucasmettetal/rue25.fr',
     demo: 'https://rue25.fr',
     featured: true,
   },
@@ -34,7 +34,7 @@ const PROJECTS: Project[] = [
     description:
       "Bot de veille automatisée sur le marché de l'emploi, connecté à l'API France Travail. Stocke et déduplique les offres dans SQLite, exécution planifiée via cron.",
     stack: ['Python', 'API France Travail', 'SQLite', 'Cron'],
-    repo: 'https://github.com/lucasmettetal/jobbot',
+    repo: 'https://github.com/lucasmettetal/job-search',
   },
   {
     name: 'Shell Unix',
@@ -42,7 +42,7 @@ const PROJECTS: Project[] = [
     description:
       "Interpréteur de commandes façon sh, écrit en C : parsing, exécution de processus, gestion des variables d'environnement et des built-ins. Un classique pour comprendre le fonctionnement d'un shell Unix de l'intérieur.",
     stack: ['C', 'Linux', 'Processus / syscalls'],
-    repo: 'https://github.com/lucasmettetal/simple_shell',
+    repo: 'https://github.com/lucasmettetal/holbertonschool-simple_shell',
   },
 ]
 
@@ -62,9 +62,8 @@ export default function Projects() {
         {PROJECTS.map((project) => (
           <article
             key={project.name}
-            className={`card flex flex-col p-7 transition-colors hover:border-accent/40 ${
-              project.featured ? 'lg:col-span-2' : ''
-            }`}
+            className={`card flex flex-col p-7 transition-colors hover:border-accent/40 ${project.featured ? 'lg:col-span-2' : ''
+              }`}
           >
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="text-xl font-bold text-ink-100">{project.name}</h3>
