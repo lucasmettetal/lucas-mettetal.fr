@@ -1,5 +1,5 @@
 const CONTACTS = [
-  { label: 'Email', value: 'contact@lucas-mettetal.fr', href: 'mailto:contact@lucas-mettetal.fr' },
+  { label: 'Email', value: 'contact@lucas-mettetal.fr', href: 'mailto:lucas8237014@gmail.com' },
   { label: 'LinkedIn', value: 'linkedin.com/in/lucas-mettetal', href: 'https://linkedin.com/in/lucas-mettetal' },
   { label: 'GitHub', value: 'github.com/lucasmettetal', href: 'https://github.com/lucasmettetal' },
 ]
