@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-950 text-ink-100 font-sans antialiased;
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(52, 211, 153, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 20%, rgba(52, 211, 153, 0.05), transparent 35%);
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-white;
+  }
+}
+
+@layer components {
+  .section {
+    @apply mx-auto max-w-content px-6 py-24 sm:px-8 lg:px-10;
+  }
+
+  .section-label {
+    @apply mb-3 flex items-center gap-3 font-mono text-sm text-accent;
+  }
+
+  .section-label::before {
+    content: '';
+    @apply h-px w-8 bg-accent/60;
+  }
+
+  .card {
+    @apply rounded-xl border border-ink-700 bg-ink-900/60 backdrop-blur-sm;
+  }
+}
