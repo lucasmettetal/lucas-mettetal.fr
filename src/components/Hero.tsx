@@ -18,7 +18,7 @@ export default function Hero() {
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-300 sm:text-lg">
             En reconversion depuis la restauration, je construis aujourd'hui des applications
             robustes de bout en bout — du frontend React à l'infrastructure Docker. Certifié
-            Holberton School (RNCP5), actuellement en Bachelor chez Epitech.
+            Holberton School (RNCP5), admis au Bachelor Informatique d'Epitech (rentrée septembre 2026).
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">
@@ -54,12 +54,12 @@ export default function Hero() {
                 <span className="text-accent">$</span> cat formation.txt
               </p>
               <p className="text-ink-100">Holberton School — RNCP5, titre certifié</p>
-              <p className="text-ink-100">Epitech — Bachelor Bac+3, sept. 2026</p>
+              <p className="text-ink-100">Epitech — Bachelor Bac+3, rentrée sept. 2026</p>
               <p className="mt-3 text-ink-400">
-                <span className="text-accent">$</span> ./check_rank.sh tryhackme
+                <span className="text-accent">$</span> cat securite.txt
               </p>
               <p className="text-ink-100">
-                Top 6% mondial — rang <span className="text-accent">[0x8] HACKER</span>
+                TryHackMe — pratique régulière (Linux, web, réseau)
               </p>
               <p className="mt-3 flex items-center gap-1 text-ink-400">
                 <span className="text-accent">$</span>

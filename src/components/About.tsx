@@ -5,14 +5,14 @@ const TIMELINE = [
     detail: "Départ du secteur de la restauration pour se former intensivement au développement.",
   },
   {
-    year: '2024 — 2025',
+    year: '2025 — 2026',
     title: 'Holberton School',
     detail: 'Formation intensive en développement full-stack, certification RNCP niveau 5.',
   },
   {
-    year: '2025 — 2026',
-    title: 'Bachelor Epitech',
-    detail: "Poursuite en Bac+3, obtention prévue en septembre 2026.",
+    year: '2026 — 2027',
+    title: 'Bachelor Epitech (à venir)',
+    detail: "Admis en 3e année du Bachelor Informatique (Bac+3), intégration en septembre 2026.",
   },
   {
     year: 'Aujourd\'hui',

@@ -1,7 +1,7 @@
 const CATEGORIES = [
   {
     title: 'Langages',
-    items: ['Python', 'JavaScript / TypeScript', 'C', 'Bash', 'SQL'],
+    items: ['Python', 'JavaScript', 'C', 'Bash', 'SQL'],
   },
   {
     title: 'Frontend & Backend',
@@ -13,7 +13,7 @@ const CATEGORIES = [
   },
   {
     title: 'IA & Outils',
-    items: ['Ollama / LLM locaux', 'Git', 'Stripe', 'CI simple'],
+    items: ['Ollama / LLM locaux', 'Git', 'Stripe'],
   },
 ]
 

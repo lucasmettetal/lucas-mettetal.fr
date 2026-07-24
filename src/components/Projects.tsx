@@ -40,7 +40,7 @@ const PROJECTS: Project[] = [
     name: 'Shell Unix',
     period: 'Projet système — C',
     description:
-      "Interpréteur de commandes façon sh, écrit en C : parsing, exécution de processus, gestion des variables d'environnement et des built-ins. Un classique pour comprendre le fonctionnement d'un shell Unix de l'intérieur.",
+      "Interpréteur de commandes façon sh, écrit en C : parsing, exécution de processus, gestion des variables d'environnement et des built-ins. Un classique pour comprendre le fonctionnement d'un shell Unix de l'intérieur. Projet réalisé en binôme.",
     stack: ['C', 'Linux', 'Processus / syscalls'],
     repo: 'https://github.com/lucasmettetal/holbertonschool-simple_shell',
   },
@@ -115,7 +115,7 @@ export default function Projects() {
         <div>
           <p className="font-mono text-xs text-accent">Cybersécurité — TryHackMe</p>
           <h3 className="mt-2 text-lg font-bold text-ink-100">
-            Top 6% mondial — rang [0x8] HACKER
+            Pratique régulière de challenges sécurité
           </h3>
           <p className="mt-2 max-w-xl text-sm leading-relaxed text-ink-300">
             Résolution de challenges de sécurité offensive et défensive (réseaux, web, Linux,
